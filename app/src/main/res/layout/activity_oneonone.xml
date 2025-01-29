@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wood7"
+    tools:context=".Oneonone">
+
+
+    <TextView
+        android:id="@+id/humanscoretxt"
+        android:layout_width="166dp"
+        android:layout_height="33dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:text="Human Score: 0"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16" />
+
+    <TextView
+        android:id="@+id/machinescoretxt"
+        android:layout_width="168dp"
+        android:layout_height="35dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:text="Machine Score: 0"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16" />
+
+    <ImageView
+        android:id="@+id/coin"
+        android:layout_width="162dp"
+        android:layout_height="169dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.412"
+        app:srcCompat="@drawable/india1final" />
+
+    <Button
+        android:id="@+id/choicehead"
+        android:layout_width="144dp"
+        android:layout_height="49dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="#117c13"
+        android:text="Heads"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.753" />
+
+    <Button
+        android:id="@+id/choicetails"
+        android:layout_width="145dp"
+        android:layout_height="55dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="#117c13"
+        android:text="Tails"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.906"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.76" />
+
+    <Button
+        android:id="@+id/resetscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="#117c13"
+        android:text="Reset"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

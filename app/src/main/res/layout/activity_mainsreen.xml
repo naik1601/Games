@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainscreen_bg"
+    tools:context=".Mainsreen">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/flipimageView2"
+        android:layout_width="90dp"
+        android:layout_height="89dp"
+        android:src="@drawable/download"
+        app:civ_border_color="#000000"
+        app:civ_border_width="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="145dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:gravity="center"
+        android:text="Flip the coin"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.582"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/flipimageView2" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/stonepaperimageView3"
+        android:layout_width="90dp"
+        android:layout_height="89dp"
+        android:src="@drawable/stonepapermain"
+        app:civ_border_color="#000000"
+        app:civ_border_width="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.283" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/wheeloffortune"
+        android:layout_width="90dp"
+        android:layout_height="89dp"
+        android:src="@drawable/whell1"
+        app:civ_border_color="#000000"
+        app:civ_border_width="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.54" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/puzzle"
+        android:layout_width="90dp"
+        android:layout_height="89dp"
+        android:src="@drawable/imagepuzzle"
+        app:civ_border_color="#000000"
+        app:civ_border_width="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.862" />
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:text="Stone paper scissor"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stonepaperimageView3" />
+
+    <TextView
+        android:id="@+id/title4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:text="Wheel Of Fortune"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wheeloffortune" />
+
+    <TextView
+        android:id="@+id/title5"
+        android:layout_width="135dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:text="Image puzzle"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.561"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/puzzle"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

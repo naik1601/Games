@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Flip the coin2</string>
+    <string-array name="dummy">
+        <item>Pasta</item>
+        <item>Pizza</item>
+        <item>Chocolate</item>
+    </string-array>
+    <string name="tips">Tips</string>
+    <string name="success">success</string>
+    <string name="next">next！</string>
+    <string name="restart">restart!</string>
+    <string name="ok">ok!</string>
+    <string name="exit">exit!</string>
+    <string name="complete">complete!</string>
+</resources>

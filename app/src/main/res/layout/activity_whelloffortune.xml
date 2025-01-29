@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/changewheel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wheelbg"
+    android:padding="10dp"
+    tools:context=".whelloffortune">
+
+
+    <ImageView
+        android:id="@+id/pointer"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/wheelimage1"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/pointerfinal" />
+
+    <ImageView
+        android:id="@+id/wheelimage1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/wheel2final" />
+
+    <TextView
+        android:id="@+id/game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wheelimage1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+
+    <Button
+        android:id="@+id/spin1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/game"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="#8B0A50"
+        android:text="spin"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/theme"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spin1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="#8B0A50"
+        android:text="changewheel"
+        android:textColor="#ffffff" />
+
+
+</RelativeLayout>

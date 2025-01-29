@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sprinkles2"
+    tools:context=".whelloffortune2">
+
+    <ImageView
+        android:id="@+id/pointer"
+        android:layout_width="219dp"
+        android:layout_height="64dp"
+        android:layout_above="@+id/wheel"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="14dp"
+        android:src="@drawable/pointerfinal" />
+
+    <ImageView
+        android:id="@+id/wheel"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/candywheel" />
+
+    <TextView
+        android:id="@+id/game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wheel"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:layout_marginTop="30dp"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/spin1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/game"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="#00BFFF"
+        android:text="spin" />
+
+
+
+
+
+
+
+
+</RelativeLayout>

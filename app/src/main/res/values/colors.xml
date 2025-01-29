@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#ffffff</color>
+    <color name="rainbowDashRed">#EE4035</color>
+    <color name="rainbowDashPeach">#F37736</color>
+    <color name="rainbowDashYellow">#FDF498</color>
+    <color name="rainbowDashGreen">#7BC043</color>
+    <color name="rainbowDashBlue">#0392CF</color>
+
+    <color name="Splash_start">#191714</color>
+    <color name="Splash_end">#2234AE</color>
+
+    <color name="mainscreen_start">#009FFD</color>
+    <color name="mainscreen_end">#2A2A72</color>
+
+    <color name="mainactivity_start">#009FFD</color>
+    <color name="mainactivity_end">#2A2A72</color>
+
+    <color name="rock_start">#EC9F05</color>
+    <color name="rock_end">#FF4E00</color>
+
+    <color name="feedback_start">#ddd6f3</color>
+    <color name="feedback_end">#faaca8</color>
+
+
+    <string-array name="rainbow_dash">
+        <item>@color/rainbowDashRed</item>
+        <item>@color/rainbowDashPeach</item>
+        <item>@color/rainbowDashYellow</item>
+        <item>@color/rainbowDashGreen</item>
+        <item>@color/rainbowDashBlue</item>
+    </string-array>
+</resources>

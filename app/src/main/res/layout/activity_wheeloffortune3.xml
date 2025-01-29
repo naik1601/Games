@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/starlight2"
+    tools:context=".wheeloffortune3">
+
+
+    <ImageView
+        android:id="@+id/pointer"
+        android:layout_width="219dp"
+        android:layout_height="64dp"
+        android:layout_above="@+id/wheel"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="14dp"
+        android:src="@drawable/pointerbg" />
+
+    <ImageView
+        android:id="@+id/wheel"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/wheelhorrorscope" />
+
+    <TextView
+        android:id="@+id/game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wheel"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:layout_marginTop="30dp"
+        android:textSize="30sp" />
+
+
+    <Button
+        android:id="@+id/spin1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/game"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_button"
+        android:text="spin" />
+
+
+</RelativeLayout>

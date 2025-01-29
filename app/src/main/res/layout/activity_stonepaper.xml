@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/text1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stps6"
+    tools:context=".stonepaper">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="175dp"
+        android:layout_height="39dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:text="Human choice"
+        android:textColor="#ffffff"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.176" />
+
+    <ImageView
+        android:id="@+id/iv_HumanChoice"
+        android:layout_width="131dp"
+        android:layout_height="116dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/stonefinal" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="175dp"
+        android:layout_height="32dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:text="Computer choice"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.174" />
+
+    <ImageView
+        android:id="@+id/iv_ComputerChoice"
+        android:layout_width="129dp"
+        android:layout_height="130dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        app:srcCompat="@drawable/paperfinal" />
+
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="291dp"
+        android:layout_height="42dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:text="Score- Human:0  Computer:0"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.658"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.721" />
+
+    <Button
+        android:id="@+id/b_stone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stone"
+        android:backgroundTint="#ffffff"
+        android:textColor="#000000"
+        android:background="@drawable/custom_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.853" />
+
+    <Button
+        android:id="@+id/b_scissor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="scissors"
+        android:textColor="#000000"
+        android:backgroundTint="#ffffff"
+        android:background="@drawable/custom_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.853" />
+
+    <Button
+        android:id="@+id/b_paper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="paper"
+        android:backgroundTint="#ffffff"
+        android:textColor="#000000"
+        android:background="@drawable/custom_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.91"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.853" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="166dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="157dp"
+        android:text="reset"
+        android:textColor="#000000"
+        android:backgroundTint="#ffffff"
+        android:background="@drawable/custom_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b_scissor"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
